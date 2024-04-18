@@ -1,7 +1,9 @@
+import SendMoney from "./components/sendMoney";
+
 function App() {
   return (
     <div>
-      <h1>Hello</h1>
+      <SendMoney />
     </div>
   );
 }
