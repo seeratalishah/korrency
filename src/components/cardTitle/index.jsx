@@ -1,4 +1,5 @@
 import React from 'react'
+import "./CardTitle.scss"
 
 const CardTitle = ({title}) => {
   return (

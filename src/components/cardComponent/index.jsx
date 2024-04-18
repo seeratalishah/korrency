@@ -6,7 +6,7 @@ import DescText from "../descText";
 const CardComponent = ({position, icon, title, text}) => {
   return (
     <div className="card">
-      <div className={`${position}-content`}>
+        <div className="content">
         <div className="icon">
           <img src={icon} alt="card-icon" />
         </div>
@@ -14,7 +14,7 @@ const CardComponent = ({position, icon, title, text}) => {
         <DescText
           text={text}
         />
-      </div>
+        </div>
     </div>
   );
 };

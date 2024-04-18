@@ -1,64 +1,23 @@
+
 .card {
-    position: relative;
-    background: white; 
-    width: 300px; 
-    height: 220px; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
+  position: relative;
+    background-image: url('../../assets/card-bg.png'); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    width: 400px;
+    min-height: 400px;
 
-    ::before{
-        content: ' ';
-        position: absolute;
-        top: -2px;
-        left: -2px;
-        right: -2px;
-        bottom: -2px;
-        background: #fff;
-        z-index: -1;
-    }
-
-    ::after{
-            content: ' ';
-            position: absolute;
-            top: -2px;
-            left: -2px;
-            right: -2px;
-            bottom: -2px;
-            background: #fff;
-            z-index: -2;
-            filter: blur(1px);
-    }
-
-    ::before, ::after {
-        background: linear-gradient(235deg, #0F3380, white, #0F3380);
-        border-radius: 15px;
-    }
-  
-    .middle-content {
+    .content{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 16px;
+      position: absolute;
       text-align: center;
-      padding: 20px;
-  
-      .icon {
-        // Style your icon here
-        font-size: 24px;
-        margin-bottom: 10px;
-      }
-  
-      h1 {
-        margin: 0;
-        color: #333; // Use the color from your Figma design
-        font-size: 18px; // Use the font-size from your Figma design
-      }
-  
-      p {
-        color: #666; // Use the color from your Figma design
-        font-size: 14px; // Use the font-size from your Figma design
-        margin-top: 10px;
-      }
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
     }
-  }
-
-  
+}
