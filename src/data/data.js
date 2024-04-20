@@ -125,3 +125,22 @@ export const faqArray = [
         answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse diam metus, auctor elementum vehicula id, accumsan sed ligula. Suspendisse mollis suscipit ullamcorper. Cras et lacinia purus, eget fringilla diam. Maecenas eu nisi vehicula, eleifend diam in, dignissim elit.",
     },
 ];
+
+export const sendMonetListArray = [
+    {
+        title: "Create an Account:",
+        text: "Create your free Korrency account. Its quick and simple.",
+    },
+    {
+        title: "Verify your identity:",
+        text: "Quick and secure identity verification to ensure Your safety and compliance with regulation.",
+    },
+    {
+        title: "Enter Transfer Details:",
+        text: "Select currencies, enter amount receipt details,and get the best exchange rates.",
+    },
+    {
+        title: "Send Money:",
+        text: "Confirm and send, fast, secure and notfied on complation.",
+    },
+];

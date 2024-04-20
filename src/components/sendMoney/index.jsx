@@ -4,9 +4,9 @@ import { flagArray } from "../../data/data";
 
 const SendMoney = () => {
   return (
-    <div className="text-center px-4 py-6">
-      <h2 className="text-2xl font-semibold mb-6">Where You Can Send Money</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-items-center">
+    <div className="text-center px-4 py-6" style={{width: "100%"}}>
+      <h2 className="mb-8">Where You Can <span>Send Money</span></h2>
+      <div className="flag-container mt-8">
         {flagArray.map((item, index) => (
           <Card
             key={index}
@@ -15,12 +15,11 @@ const SendMoney = () => {
           />
         ))}
       </div>
-      <a
-        href="/"
-        className="text-blue-600 hover:text-blue-800 mt-6 inline-block"
+      <p
+        className="link-text mt-8"
       >
         More countries to follow
-      </a>
+      </p>
     </div>
   );
 };

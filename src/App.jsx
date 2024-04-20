@@ -11,16 +11,16 @@ import GetStarted from "./components/getStarted";
 function App() {
   return (
     <div>
-      {/* <Header />
+      <Header />
       <HeroSection />
-      <KorrencyWork />
-      <SendMoney /> */}
       <div className="main-container">
-      <OurStory />
-      <MoneySecured />
-      <FAQ />
-      <Support />
-      <GetStarted />
+        <KorrencyWork />
+        <SendMoney />
+        <OurStory />
+        <MoneySecured />
+        <FAQ />
+        <Support />
+        <GetStarted />
       </div>
     </div>
   );
