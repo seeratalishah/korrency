@@ -1,27 +1,17 @@
 import React from "react";
-import { IoIosArrowUp, IoIosArrowDown } from "react-icons/io";
 import { faqArray } from "../../data/data";
-
-const ListItem = ({ title }) => {
-  return (
-    <div>
-      <div>
-        <h3 className="card-title">{title}</h3> <IoIosArrowUp />
-      </div>
-      <div>
-        <p className="white-bg-text">{text}</p>
-      </div>
-    </div>
-  );
-};
+import ListItem from "./ListItem";
 
 const FAQ = () => {
   return (
-    <div>
+    <div style={{width: "100%"}} className="px-4 py-8 flex flex-col items-center justify-center">
       <h2 className="mb-8">
         Frequently Asked <span>Questions</span>
       </h2>
-      <div>
+      <div
+        style={{ maxWidth: "900px", width: "100%" }}
+        className="flex flex-col gap-4"
+      >
         {faqArray.map((item, index) => {
           return (
             <ListItem key={index} title={item.question} text={item.answer} />

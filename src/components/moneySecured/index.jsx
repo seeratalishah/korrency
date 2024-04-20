@@ -4,7 +4,7 @@ import CardComponent from "../cardComponent";
 
 const MoneySecured = () => {
   return (
-    <div className="px-4 py-8">
+    <div className="px-4 py-8" style={{width: "100%"}}>
       <div className="flex flex-col sm:flex-row justify-between sm:items-center mb-8">
         <h2 className="mb-4 sm:mb-0 md:mb-0 lg:mb-0">
           We Keep Your <span>Money Secured</span>
