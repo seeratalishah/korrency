@@ -1,5 +1,4 @@
 import React from "react";
-import DescText from "../descText";
 import { Button, Input } from "antd";
 import insta from "../../assets/insta.png";
 import facebook from "../../assets/facebook.png";

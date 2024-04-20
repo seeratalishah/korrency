@@ -1,16 +1,19 @@
-import CardComponent from "./components/cardComponent";
 import SendMoney from "./components/sendMoney";
-import icon from "./assets/dollar.png";
-import Korrency from "./components/korrency";
 import Header from "./components/header";
 import HeroSection from "./components/heroSection";
+import KorrencyWork from "./components/korrencyWork";
+import OurStory from "./components/ourStory";
+import MoneySecured from "./components/moneySecured";
 
 function App() {
   return (
     <div>
-      <Header />
+      {/* <Header />
       <HeroSection />
-      <Korrency />
+      <KorrencyWork />
+      <SendMoney /> */}
+      <OurStory />
+      <MoneySecured />
     </div>
   );
 }

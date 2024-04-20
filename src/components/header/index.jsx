@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import logo from "../../assets/Korrency-white-version.png";
-import { Button, Menu } from "antd";
-import "./Header.scss";
+import "./Header.css";
 
 const Header = () => {
   return (
