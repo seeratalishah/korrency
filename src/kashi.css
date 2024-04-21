@@ -69,99 +69,11 @@ h2 > span {
   line-height: 22px;
 }
 
-.link-text {
-  font-size: 20px;
-  font-family: "gloryBold", sans-serif;
-  font-weight: 400;
-  line-height: 22px;
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-.link-text:hover {
-  color: #0E3079;
-}
-
-.blue-text {
-  color: #0E3079;
-  font-family: "gloryBold", sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
-}
-
 .card-title {
   font-family: "gilroyBold", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 25px;
-}
-
-.list-item {
-  background: #ffffff;
-  border-radius: 12px;
-  color: #222222;
-  padding: 10px 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-.list-item-shadow {
-  background: #0f3380;
-  border-radius: 12px;
-  color: #ffffff;
-  padding: 10px 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-.get-started {
-  padding: 20px;
-  max-width: 900px;
-  border-radius: 20px;
-}
-
-.get-started h1 {
-  font-family: "gloryBold", sans-serif;
-  font-size: 38px;
-  font-weight: 700;
-  line-height: 52px;
-}
-
-.dark-bg-text{
-  font-family: "gloryLight", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 22px;
-  color: #ffffff;
-}
-
-.secondaryBtn {
-  font-weight: 100;
-  font-family: "gloryNormal", sans-serif;
-  letter-spacing: 0.5px;
-  border: none;
-  border: 1px solid #0f3380;
-  max-width: 200px;
-  color: #0f3380;
-  background: #ffffff;
-}
-
-.secondaryBtn:hover{
-  background: #2394c4;
-  color: #ffffff;
-}
-
-.main-container{
-  margin-inline: 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 80px;
-}
-
-.flag-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 32px;
+  line-height: 45px;
 }
 
 .row {
@@ -213,28 +125,4 @@ h2 > span {
 
 .korrency {
   color: #0f3380;
-}
-
-@media (min-width: 768px){
-  .main-container{
-    margin-inline: 80px;
-  }
-  .flag-container{
-    grid-template-columns: repeat(6, 1fr);
-  }
-}
-
-@media (max-width: 599px){
-  .main-container{
-    margin-inline: 20px;
-  }
-  .flag-container{
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (min-width: 1400px){
-  .main-container{
-    margin-inline: 140px;
-  }
 }
