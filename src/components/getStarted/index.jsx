@@ -4,7 +4,7 @@ import backgroundImageUrl from "../../assets/getstarted.png";
 const GetStarted = () => {
   return (
     <div
-      className="get-started bg-cover bg-center text-white flex flex-col items-center"
+      className="get-started bg-cover bg-center text-white flex flex-col items-center mb-8"
       style={{ backgroundImage: `url(${backgroundImageUrl})` }}
     >
       <h1 className="mb-4 text-center">

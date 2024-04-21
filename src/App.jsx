@@ -7,6 +7,8 @@ import MoneySecured from "./components/moneySecured";
 import FAQ from "./components/faq";
 import Support from "./components/support";
 import GetStarted from "./components/getStarted";
+import Footer from "./components/footer";
+import WhyChooseKorrency from "./components/whyChooseKorrency";
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
       <Header />
       <HeroSection />
       <div className="main-container">
+        <WhyChooseKorrency />
         <KorrencyWork />
         <SendMoney />
         <OurStory />
@@ -22,6 +25,7 @@ function App() {
         <Support />
         <GetStarted />
       </div>
+      <Footer />
     </div>
   );
 }

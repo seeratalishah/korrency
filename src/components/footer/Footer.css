@@ -1,0 +1,9 @@
+.footer-section {
+    background: url(../../assets/footer.png);
+    background-size: cover;
+    min-height: 400px;
+    display: flex;
+    align-items: end;
+    padding-top: 140px;
+  }
+  
